@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tapistro": {
+      "type": "http",
+      "url": "https://mcp.tapistro.com/mcp"
+    }
+  }
+}

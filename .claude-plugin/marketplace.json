@@ -1,0 +1,12 @@
+{
+  "name": "tapistro",
+  "owner": { "name": "Tapistro" },
+  "description": "Tapistro plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "tapistro",
+      "source": "./plugins/tapistro",
+      "description": "Tapistro MCP server plus skills for journeys, signals, and activations"
+    }
+  ]
+}
