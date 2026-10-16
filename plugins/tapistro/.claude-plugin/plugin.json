@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Tapistro MCP server plus skills for journeys, signals, and activations",
   "author": { "name": "Tapistro" },
-  "homepage": "https://mcp.tapistro.com",
+  "homepage": "https://www.tapistro.com",
+  "supportUrl": "https://help.tapistro.com/en/",
+  "documentationUrl": "https://help.tapistro.com/en/",
   "repository": "https://github.com/tapistro/claude-plugins",
   "license": "LicenseRef-Proprietary",
   "privacyPolicyUrl": "https://www.tapistro.com/privacy-policy-tapistro"
