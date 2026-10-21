@@ -4,7 +4,7 @@ Claude Code plugin marketplace for [Tapistro](https://tapistro.com).
 
 | Plugin | Description |
 |--------|-------------|
-| [`tapistro`](plugins/tapistro) | Tapistro MCP server plus skills for journeys, signals, and activations |
+| [`tapistro`](plugins/tapistro) | Tapistro MCP server plus skills for brand context, AI Agents, journeys, intent, account briefs, outreach and reporting |
 
 ```
 /plugin marketplace add tapistro/claude-plugins

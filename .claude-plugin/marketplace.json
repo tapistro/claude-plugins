@@ -6,7 +6,7 @@
     {
       "name": "tapistro",
       "source": "./plugins/tapistro",
-      "description": "Tapistro MCP server plus skills for journeys, signals, and activations"
+      "description": "Tapistro MCP server plus skills for brand context, AI Agents, journeys, intent, account briefs, outreach and reporting"
     }
   ]
 }
