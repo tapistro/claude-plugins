@@ -14,6 +14,7 @@ Connects Claude to [Tapistro](https://tapistro.com), a B2B go-to-market platform
   - `/tapistro:account-brief` — one-page brief on an account.
   - `/tapistro:write-outreach` — a first-touch email or LinkedIn note grounded in Tapistro data.
   - `/tapistro:gtm-report` — period digest of pipeline, activations and credit usage.
+  - `/tapistro:list-import` — research accounts or people on the web and load them into a CSV source, ready to re-run on a schedule.
 - **GTM strategies as journeys:**
   - `/tapistro:signal-triggered-outreach` — act on buying triggers within their window, with a trigger-specific angle.
   - `/tapistro:account-tiering` — score and tier accounts, give each tier its own treatment, split tier A across reps.
