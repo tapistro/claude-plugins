@@ -42,4 +42,4 @@ Show the user a summary — steps in order, each with its config in one line, an
 2. Offer to add it to a play (`list_plays`, `add_journey_to_play`).
 3. `get_journey` to confirm the graph. Ask before `run_journey`: a run pulls fresh records and spends credits.
 
-Never create, update, delete or run without the user's explicit go-ahead. `update_*` tools replace the whole object: get it, change it, send it all back.
+Never create, update, delete or run without the user's explicit go-ahead. `update_*` tools replace the whole object: get it, change it, send it all back. For a journey that includes `schedule`, `scheduleStatus` and the other `schedule*` fields: leaving them out turns its schedule off.

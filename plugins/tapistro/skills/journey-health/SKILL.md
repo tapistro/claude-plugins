@@ -20,7 +20,7 @@ Find the single biggest problem first, prove it with numbers, then fix it.
 
 Report: root cause in one line, the evidence (funnel table step → in → out → drop %, top errors with counts, sample ids), and the fix.
 Fixing is a separate, approved step:
-- Config fixes go through `update_*` with the full object.
+- Config fixes go through `update_*` with the full object. For a journey that includes `schedule`, `scheduleStatus` and the other `schedule*` fields: leaving them out turns its schedule off.
 - After fixing a step, offer `rerun_journey_from_step` from that step (`rerunErrorsOnly` for only the failed records) rather than `run_journey`, which pulls fresh records and leaves the stuck ones behind.
 
 Never change or run anything without the user's explicit go-ahead.
